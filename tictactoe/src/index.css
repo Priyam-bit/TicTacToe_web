@@ -1,0 +1,55 @@
+body {
+  text-align: center;
+  font-size: 1em;
+  font-family: verdana;
+  margin: 0;
+  background: #333;
+}
+h1 {
+  font-size: 3em;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+  margin: 0 0 30px 0;
+  color: #fff;
+}
+
+/* rows */
+.row {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.cell {
+  display: block;
+  width: 90px;
+  height: 90px;
+  border: 3px solid #bbb;
+  margin: 4px;
+  text-align: center;
+  line-height: 90px;
+  text-transform: uppercase;
+  /* font-weight: bold; */
+  font-size: 3.5em;
+  color: #eee;
+  cursor: pointer;
+}
+
+.cell:hover {
+  background: rgb(39, 39, 39);
+}
+
+/* player buttons */
+.playerButton {
+  background: #333;
+  padding: 20px;
+  width: 250px;
+  border: 3px solid #bbb;
+  margin: 20px 40px;
+  color: #fff;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.playerButton:hover {
+  background: rgb(39, 39, 39);
+}
