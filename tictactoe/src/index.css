@@ -38,6 +38,10 @@ h1 {
   background: rgb(39, 39, 39);
 }
 
+.cell .busy {
+  pointer-events: none;
+}
+
 /* player buttons */
 .playerButton {
   background: #333;

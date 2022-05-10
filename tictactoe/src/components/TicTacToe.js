@@ -8,7 +8,7 @@ export default function TicTacToe() {
     console.log({player});
   return (
     <div>
-        <Grid board = {board} addMove = {result}/>
+        <Grid board = {board} addMove = {result} player = {player}/>
         {!player && (<div >
             <button className='playerButton' onClick={() => setPlayer("X")}>Play as X</button>
             <button className='playerButton' onClick={() => setPlayer("O")}>Play as O</button>

@@ -5,7 +5,8 @@ export default function Row({ row, rowNum, addMove }) {
   return (
       <div className='row'>
           {row.map((cell,j) => {
-              return <div key = {j} className='cell' onClick={() => addMove([rowNum,j])}>{row[j]}</div>
+              return <div key = {j} className='cell'
+               onClick={() => addMove([rowNum,j])}>{row[j]}</div>
           })}      
       </div>
   )
